@@ -186,7 +186,7 @@
     --md-primary-fg-color: #035d46;/*navigatorun alt kısımdaki bölgenin rengini değiştiriyor*/
     --md-primary-fg-color--light: #035d46;
     --md-primary-fg-color--dark: #035d46;
-    --md-primary-bg-color: #ffffffc2;/*butonların hem çerçevelerini ve ilk butonn arka plan rengini değiştirir*/
+    --md-primary-bg-color: #ffffff;/*butonların hem çerçevelerini ve ilk butonn arka plan rengini değiştirir*/
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
 
@@ -296,7 +296,7 @@
     --md-primary-fg-color--light: rgba(0,0,0,.54);
     --md-primary-fg-color--dark: #000;
     --md-primary-bg-color: #fff;
-    --md-primary-bg-color--light: hsla(0,0%,100%,.7);
+    --md-primary-bg-color--light: hsl(0, 0%, 100%);
     --md-typeset-a-color: #4051b5
 }
 
@@ -312,7 +312,7 @@
 
 @media screen and (min-width: 60em) {
     [data-md-color-primary=black] .md-search__form {
-        background-color:hsla(0, 0%, 100%, 0.123)
+        background-color:hsla(0, 0%, 100%, 0.349)
     }
 
     [data-md-color-primary=black] .md-search__form:hover {
