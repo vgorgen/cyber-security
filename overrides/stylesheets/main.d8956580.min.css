@@ -206,7 +206,7 @@
     padding: 1em 1.8em;
     outline: none;
     border: 1px solid #303030;
-    background: #dddcdcfd;
+    background: #fffffffd;
     color: #0515a3;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -293,7 +293,7 @@
    .mdx-hero .md-button:active {
     background: #ae00af;
     background: linear-gradient(to top right, #ae00af, #001eff);
-    color: #bfbfbf;
+    color: #ffffff;
     box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
     transition: 0.1s;
    }
