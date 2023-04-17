@@ -290,13 +290,7 @@
     transition-delay: 0.52s;
 }
 
-.mdx-hero .md-button:active {
-    background: #ae00af;
-    background: linear-gradient(to top right, #ae00af, #001eff);
-    color: #bfbfbf;
-    box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
-    transition: 0.1s;
-}
+
 
 .mdx-hero .md-button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-child(2) {
     transition: none;
