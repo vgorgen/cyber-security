@@ -17,8 +17,8 @@
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
     <style>
         :root {
-            --md-text-font: "Roboto";
-            --md-code-font: "Roboto Mono"
+            --md-text-font: "Roboto Bolder";
+            --md-code-font: "Roboto Bolder"
         }
     </style>
     <script>
@@ -70,7 +70,7 @@
     </div>
     <div data-md-component="announce" style="background-color: #000;">
         <aside class="md-banner">
-            <div class="md-banner__inner md-grid md-typeset" >
+            <div class="md-banner__inner md-grid md-typeset">
                 <a href="https://www.linkedin.com/in/veysel-g%C3%B6rgen-4b3121213/">
                     For more information contact with me <strong>@veyselgorgen</strong>
                     on
@@ -667,7 +667,8 @@
                                                         Basic Linux Commands
                                                         <span class="md-nav__icon md-icon"></span>
                                                     </label>
-                                                    <a href="./" class="md-nav__link md-nav__link--active">Basic Linux Commands
+                                                    <a href="./" class="md-nav__link md-nav__link--active">Basic Linux
+                                                        Commands
                                                     </a>
                                                     <nav class="md-nav md-nav--secondary"
                                                         aria-label="Table of contents">
@@ -679,7 +680,8 @@
                                                         <ul class="md-nav__list" data-md-component="toc"
                                                             data-md-scrollfix>
                                                             <li class="md-nav__item">
-                                                                <a href="#week-1" class="md-nav__link">Basic Linux Commands
+                                                                <a href="#week-1" class="md-nav__link">Basic Linux
+                                                                    Commands
                                                                 </a>
                                                                 <nav class="md-nav" aria-label="Week-1">
                                                                     <ul class="md-nav__list">
@@ -809,10 +811,10 @@ Describe the issue of this article in detail.
                         <h2 id="week-1">
                             Basic Linux Commands<a class="headerlink"></a>
                         </h2>
-                       
+
                         <p>
-                        
-                        <img alt="center width:1000px" src="../Kali-Linux/images/Kali-Linux.png" />
+
+                            <img alt="center width:1000px" src="../Kali-Linux/images/Kali-Linux.png" />
                         </p>
 
                         <hr />
@@ -835,8 +837,8 @@ Describe the issue of this article in detail.
                             <li>Ifoncfig Komutu</li>
                             <li>Du Komutu</li>
                             <li>Head Komutu</li>
-                            
-                            
+
+
                         </ul>
                         <ul style="margin-top: -32em; margin-left: 15em; position: static;">
                             <li>Whoami Komutu</li>
@@ -854,8 +856,8 @@ Describe the issue of this article in detail.
                             <li>Uname Komutu</li>
                             <li>History Komutu</li>
                             <li>Man Komutu</li>
-                            
-                           
+
+
                         </ul>
                         <ul style="margin-top: -32em; margin-left: 30em; position: static;">
 
@@ -879,217 +881,581 @@ Describe the issue of this article in detail.
 
                         <hr />
                         <h2 id="introduction-to-Basic-Network">
+
                             Introduction to Kali Linux<a class="headerlink"></a>
                         </h2>
                         <hr />
                         <h3 id="ip-giris">
                             Echo Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>Linux'taki Echo komutu, terminalde mesajları veya metin dizilerini görüntülemek için bir
+                            oluşturma komutudur. Bu basit ve doğrudan bir komuttur ve parametrelere standart çıkış akışı
+                            verilir.</p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant" style="margin-left: -20px;">echo</span></span><span class="token operator"></span><span class="token string"> "Hello World"</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/echokomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/echokomutu.PNG" />
+                        </p>
+                        <p>echo komutuyla kullanılan yaygın olarak kullanılan bazı seçenekler şunlardır:</p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-e</span></b></code> Bu
+                                seçenek, dize içindeki ters eğik kaçış dizilerinin yorumlanmasını etkinleştirir.
+                                Örneğin, \t bir sekme karakterini, \n bir yeni satır karakterini vb. temsil eder.
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/echo=ekomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Pwd Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">pwd</span></b></code> komutu,
+                                "print working directory" kelimelerinin baş harflerinin kısaltmasıdır. Bu komut,
+                                kullanıcının şu an hangi dizinde çalıştığını gösterir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">pwd</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/pwdkomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/pwdkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Ls Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">ls</span></b></code> komutu,
+                                "list" kelimesinin kısaltmasıdır. Bu komut, kullanıcının bulunduğu dizindeki dosya ve
+                                dizinleri listeler.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">ls</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Lskomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Lskomutu.PNG" />
                         </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-l</span></b></code> seçeneği:
+                                Dosyaların ayrıntılı bir listesini görüntüler. Bu seçenek, dosyaların izinleri,
+                                sahipleri, boyutları, oluşturma tarihleri ve diğer bilgileri gibi daha fazla bilgi
+                                içeren bir çıktı sağlar.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-lkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-a</span></b></code> seçeneği:
+                                Gizli dosyaları da dahil ederek tüm dosyaları listeler. Gizli dosyalar, dosya adlarının
+                                başında bir nokta ile işaretlenir ve normal ls çıktısında görünmezler.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-akomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-h</span></b></code> seçeneği:
+                                Dosya boyutlarını daha okunaklı hale getirmek için insan tarafından okunabilir bir
+                                formatta (KB, MB, GB vb.) görüntüler ve <b><code
+                                        class="language-bash"><span style="color: #7ADC62;">-l</span></b></code> komutu
+                                    ile beraber kullanılır.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-lhkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-R</span></b></code> seçeneği:
+                                Alt dizinler dahil olmak üzere tüm dizinleri rekürsif olarak listeler.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-Rkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-r</span></b></code> seçeneği:
+                                Alfabetik sırasında sondan boşa doğru bir listeleme yapar.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-rlkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-t</span></b></code> seçeneği:
+                                Dosyaları değiştirildiği zamana göre sıralar. Zamanı görmek için <b><code
+                                        class="language-bash"><span style="color: #7ADC62;">-l</span></b></code> komutu
+                                    ile birlikte kullanmak gerekir.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-tkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-S</span></b></code> seçeneği:
+                                Dosyaları boyutlarına göre sıralar. Dosyaların boyutlarını görmek için <b><code
+                                        class="language-bash"><span style="color: #7ADC62;">-l</span></b></code> komutu
+                                    ile birlikte kullanmak gerekir.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ls-Slkomutu.PNG" />
+                        </p>
+
                         <hr />
                         <h3 id="ip-giris">
                             Cd Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">cd</span></b></code> komutu,
+                                "change directory" kelimelerinin baş harflerinin kısaltmasıdır. Bu komut, kullanıcının
+                                bulunduğu dizini değiştirir. Bu komutu kullanarak, bir dizinden diğerine geçebilirsiniz.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">cd</span></span><span class="token operator"></span><span class="token string"> Downloads</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Cdkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Cdkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">cd ..</span></b></code>
+                                Kullanıcının bulunduğu dizinin üst dizinine geçer.
+
+                        </li>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/cdikinokta.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Cat Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">cat</span></b></code> komutu,
+                                "concatenate" kelimesinin baş harflerinin kısaltmasıdır. Bu komut, bir veya daha fazla
+                                dosyanın içeriğini ekrana yazdırmak veya başka bir dosyaya yönlendirmek için kullanılır.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">cat</span></span><span class="token operator"></span><span class="token string"> hello.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Catkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Catkomutu.PNG" />
+                        </p>
+                        <li>
+                            Ayrıca, cat komutu, birden fazla dosyayı birleştirmek için de kullanılabilir. Örneğin, iki
+                            dosyayı birleştirmek için aşağıdaki komutu kullanabilirsiniz:
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">cat</span></span><span class="token operator"></span><span class="token string"> name1.txt name2.txt > allnames.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/cat2komutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Touch Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">touch</span></b></code> komutu,
+                                bir veya daha fazla dosyanın oluşturulmasını veya değiştirilme tarihlerinin
+                                güncellenmesini sağlar. Bu komutun temel kullanımı, dosyanın oluşturulması veya varolan
+                                dosyanın değiştirilme tarihini güncellemek için kullanılır.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">touch</span></span><span class="token operator"></span><span class="token string"> game_lists.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Touchkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Touchkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Cp Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">cp</span></b></code> komutu,
+                                bir dosyanın kopyasını oluşturmak için kullanılır. Bu komut, bir dosyayı başka bir
+                                dosyaya veya dizine kopyalayabilir.
+                        </p>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">cp</span></b></code> komutunun
+                                temel kullanımı, kopyalanacak dosyanın adının ve kopyası oluşturulacak konumun
+                                belirtilmesini içerir. Örneğin, aşağıdaki komut
+                                <b>"/home/kali/Public/game_lists.txt"</b> dosyasını <b>"/home/kali/Desktop/"</b>
+                                dizinine kopyalar:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">cp</span></span><span class="token operator"></span><span class="token string"> /home/kali/Public/game_lists.txt /home/kali/Desktop/</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Cp.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Cp.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Mv Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">mv</span></b></code> komutu,
+                                dosya ve dizinleri taşımak veya yeniden adlandırmak için kullanılır. "mv" kısaltması
+                                "move" kelimesini ifade eder.
+                        </p>
+                        <p>
+                            Temel kullanımı, taşınacak dosyanın adı ve yeni konumun belirtilmesini içerir. Örneğin,
+                            aşağıdaki komut <b>"/home/kali/Desktop/names.txt"</b> dosyasını
+                            <b>"/home/kali/Templates/"</b> dizinine taşır:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">mv</span></span><span class="token operator"></span><span class="token string"> /home/kali/Desktop/names.txt /home/kali/Templates/</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/mvkomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/mvkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Mkdir Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">mkdir</span></b></code> komutu,
+                                yeni bir dizin (klasör) oluşturmak için kullanılır. "mkdir" kısaltması "make directory"
+                                kelimesini ifade eder.
+                        </p>
+                        <p>
+                            mkdir komutu, oluşturulacak dizinin adını ve isteğe bağlı olarak dizinin izinlerini
+                            belirtir. Örneğin, aşağıdaki komut <b>"one"</b> adında yeni bir dizin oluşturur:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">mkdir</span></span><span class="token operator"></span><span class="token string"> one</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/mkdirkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/mkdirkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-p</span></b></code> iç içe
+                                klasörler oluşturur. Örneğin:
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">mkdir -p</span></span><span class="token operator"></span><span class="token string"> one/two/three</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/mkdir_icice.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Rmdir Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">rmdir</span></b></code> komutu,
+                                boş bir dizini (klasörü) silmek için kullanılır. "rmdir" kısaltması "remove directory"
+                                kelimesini ifade eder.
+                        </p>
+                        <p>
+                            rmdir komutu, silinecek dizinin adını belirtir. Örneğin, aşağıdaki komut <b>"one"</b>
+                            adındaki boş bir dizini siler:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">rmdir</span></span><span class="token operator"></span><span class="token string"> one</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/rmdirkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/rmdirkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Rm Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">rm</span></b></code> komutu,
+                                dosyaları veya dizinleri (klasörleri) silmek için kullanılır. "rm" kısaltması "remove"
+                                kelimesini ifade eder.
+                        </p>
+                        <p>
+                            rm komutu, silinecek dosyaların veya dizinlerin adlarını belirtir. Örneğin, aşağıdaki komut
+                            <b>"game_lists.txt"</b> adındaki bir dosyayı siler:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">rm</span></span><span class="token operator"></span><span class="token string"> game_lists.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/rmkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/rmkomutu.PNG" />
+                        </p>
+                        <li>
+                            rm komutu, bir dizini (klasörü) silmek için de kullanılabilir. Ancak, dizin içinde dosya
+                            veya alt dizinler varsa, rm komutu bu dizini silmez ve bir hata mesajı gösterir. Bu durumda,
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-r</span></b></code>
+                                (recursive) seçeneği kullanılarak, dizin ve içeriği de silinebilir. Örneğin, aşağıdaki
+                                komut "klasor" adındaki dizini ve içeriğini siler:
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">rm -r</span></span><span class="token operator"></span><span class="token string"> one</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/rm-rkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Grep Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">grep</span></b></code> komutu,
+                                metin içinde belirli bir kelime veya ifadeyi aramak için kullanılır. "grep" kısaltması
+                                "Global Regular Expression Print" anlamına gelir.
+                        </p>
+                        <p>
+                            grep komutu, bir dosya veya bir komut çıktısı gibi bir metin kaynağı üzerinde arama yapar.
+                            Örneğin, aşağıdaki komut, <b>"hello.txt"</b> adlı bir dosyada <b>"merhaba"</b> kelimesini
+                            arar:
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">grep</span></span><span class="token operator"></span><span class="token string"> merhaba hello.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/grepkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/grepkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Ifconfig Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">ifconfig</span></b></code>
+                                komutu, bir Linux işletim sistemi üzerindeki ağ arayüzlerinin yapılandırması ve durumu
+                                hakkında bilgi sağlar. Bu komut, bir kullanıcının sistemindeki ağ bağlantılarını
+                                listelemesine ve ayarlarını değiştirmesine olanak tanır. Aynı zamanda ağ arayüzlerinin
+                                IP adreslerini, MAC adreslerini, ağ maskelemelerini, ağ durumlarını, bağlantı türlerini
+                                ve diğer ağ ayarlarını gösterir. Bu bilgi, ağ bağlantı sorunlarını gidermek veya ağ
+                                ayarlarını yapılandırmak için kullanılabilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">ifconfig</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/ifconfigkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ifconfigkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Du Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">du</span></b></code> (Disk
+                                Usage) komutu, belirtilen dizinin altındaki tüm dosyaların boyutlarını hesaplar ve
+                                bunları kilobayt (KB) cinsinden rapor eder.
+                        </p>
+                        <p>
+                            Bu komut, sistemdeki depolama alanı tüketiminin takibi için kullanışlıdır ve dosyaların ne
+                            kadar yer kapladığını kontrol etmek için de kullanılabilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">du</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Dukomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Dukomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Head Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">head</span></b></code> komutu,
+                                bir dosyanın başlangıcındaki satırları görüntülemek için kullanılır. Varsayılan olarak,
+                                bu komut, bir dosyanın ilk 10 satırını standart çıktıya yazdırır.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">head</span></span><span class="token operator"></span><span class="token string"> names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Headkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Headkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-n</span></b></code> seçeneği
+                                ile birlikte, ilk kaç satırın yazdırılacağını belirleyebilirler. Örneğin, head -n 5
+                                filename.txt komutu, filename.txt dosyasının ilk 5 satırını yazdırır.
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">head -n</span></span><span class="token operator"></span><span class="token string"> 5 name1.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/head-nkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Whoami Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">whoami</span></b></code>
+                                komutu, kullanıcı adını veya kullanıcının kimliğini belirlemek için kullanılan bir
+                                komuttur.
+                        </p>
+                        <p>
+                            Bu komut, oturum açmış olan kullanıcının adını verir. Eğer farklı bir kullanıcı adı ile
+                            oturum açılmışsa, whoami komutu o kullanıcının adını verir. Bu komutun kullanımı oldukça
+                            basittir ve terminal veya komut satırı arayüzünde kullanılabilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">whoami</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/whoamikomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/whoamikomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Wc Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">wc</span></b></code> komutu,
+                                "word count" kısaltmasıdır. Bu komut, bir dosyanın kelime, karakter, satır sayısı gibi
+                                özelliklerini sayarak verir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">wc</span></span><span class="token operator"></span><span class="token string"> names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/wckomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/wckomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-l</span></b></code> seçeneği,
+                                dosyanın kaç satırdan oluştuğunu yazdırır.
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">wc -l</span></span><span class="token operator"></span><span class="token string"> name1.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/wc-lkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-w</span></b></code> seçeneği,
+                                dosyanın kaç kelimeden oluştuğunu yazdırır.
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">wc -w</span></span><span class="token operator"></span><span class="token string"> name1.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/wc-wkomutu.PNG" />
+                        </p>
+                        <li>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">-c</span></b></code> seçeneği,
+                                dosyanın kaç karakterden oluştuğunu yazdırır.
+                        </li>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">wc -c</span></span><span class="token operator"></span><span class="token string"> name1.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/wc-ckomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Df Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">df</span></b></code> komutu,
+                                disk kullanımını kontrol etmek için kullanılan bir Linux komutudur. "disk kullanımı"
+                                hakkında bilgi sağlar ve sistem dosya sistemi yapısını raporlar. Bu komut, disk alanının
+                                kullanımını, doluluk oranını, mevcut boş alanı ve bağlı dosya sistemlerinin türünü
+                                gösterir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">df</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/dfkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/dfkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Tail Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">tail</span></b></code> komutu,
+                                bir dosyanın son kısmını ekrana yazdırmak veya bir dosyadaki yeni eklenen satırları
+                                takip etmek için kullanılan bir Linux komutudur.
+                        </p>
+                        <p>
+                            Komutu çalıştırdığınızda, varsayılan olarak tail son 10 satırı görüntüler. Ancak, komut
+                            satırında belirtilen argümanlarla, bu sayı belirli bir sayıya veya dosyanın başlangıcından
+                            itibaren belirli bir konuma kadar olan satırları görüntülemek için de kullanılabilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">tail</span></span><span class="token operator"></span><span class="token string"> names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/tailkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/tailkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Diff Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">diff</span></b></code> komutu,
+                                iki farklı dosya veya dizin arasındaki farkları bulmak için kullanılan bir Linux
+                                komutudur. Bu komut, iki dosyanın aynı olup olmadığını kontrol etmek için veya iki
+                                farklı versiyonu karşılaştırmak için kullanılabilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">diff</span></span><span class="token operator"></span><span class="token string"> game_lists.txt names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/diffkomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/diffkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Tar Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">tar</span></b></code> komutu,
+                                Linux ve Unix sistemlerinde sıkça kullanılan bir arşivleme aracıdır. Bu komut, dosyaları
+                                bir araya getirerek sıkıştırır ve böylece daha az disk alanı kullanmasını sağlar. Aynı
+                                zamanda, birden fazla dosyayı tek bir dosya olarak birleştirerek kolay bir şekilde
+                                taşınmasını veya yedeklenmesini sağlar.
+                        </p>
+                        <p>
+                            Sonda kullanılan nokta dizindeki tüm dosyaları arşivle demektir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">tar</span></span><span class="token operator"></span><span class="token string"> -cf archive.tar .</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/tarkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/tarkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
@@ -1100,179 +1466,289 @@ Describe the issue of this article in detail.
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">chmod</span></span><span class="token operator"></span><span class="token string"> -w names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/Chmodkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/Chmodkomutu.PNG" />
+                        </p>
+                        <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">chmod</span></span><span class="token operator"></span><span class="token string"> +x names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
+                        </code></pre>
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/chmod+xkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Chown Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">chown</span></b></code> komutu,
+                                Linux ve Unix tabanlı işletim sistemlerinde, dosya veya dizinlerin sahipliğini ve/veya
+                                izinlerini değiştirmek için kullanılan bir komuttur.
+                        </p>
+                        <li>
+                            Komutun kullanımı, <b style="color: red;">chown [seçenekler] [kullanıcı]:[grup]
+                                [dosya/dizin]</b>
+                        </li>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo chown</span></span><span class="token operator"></span><span class="token string"> veysel names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/chownkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/chownkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Ps Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">ps</span></b></code> komutu,
+                                işletim sistemi üzerinde çalışan işlemleri (process) listelemek ve hakkında bilgi almak
+                                için kullanılan bir komuttur. Bu komut sayesinde sistemdeki işlemlerin durumlarını,
+                                kullanılan kaynakları, kimlik bilgilerini ve diğer özelliklerini görebilirsiniz.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">ps</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
+
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/pskomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/pskomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Top Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">top</span></b></code> komutu,
+                                Linux ve diğer Unix benzeri işletim sistemlerinde kullanılan bir sistem izleme aracıdır.
+                                Sisteminizdeki tüm işlemleri ve kaynakları (CPU, bellek, disk kullanımı vb.) canlı
+                                olarak izlemenizi sağlar.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">top</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/topkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/topkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Ping Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+
+                            Facebook Twitter Pinterest E-Mail Yorumlar
+                            Ping komutu ile verilen IP adresine ait bilgisayarın TCP/IP bakımından çalışıp çalışmadığını
+                            öğrenmek ve eğer çalışıyorsa ona ne kadar sürede ulaşıldığını görmek için kullanılır. Ping
+                            komutunda, karşıdaki cihaza 32 baytlık bir ICMP (Internet Control Message Protocol –
+                            İnternet Yönetim Mesajlaşması Protokolü) paketi gönderilir ve aynı paketin geri gelmesini
+                            bekler. Bu paketle karşı cihaza echo komutu yollanmış olur ve karşıdan echoreplay komutu
+                            bekler.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">ping</span></span><span class="token operator"></span><span class="token string"> www.google.com</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/pingkomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/pingkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Wget Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">wget</span></b></code> komutu,
+                                web sunucularından dosyaları indirmek için kullanılan bir komuttur. Bir URL adresi
+                                belirtilerek, sunucudaki dosyalar otomatik olarak indirilebilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">wget</span></span><span class="token operator"></span><span class="token string"> https://code.jquery.com/jquery-3.6.0.min.js</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/wgetkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/wgetkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Uname Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">uname</span></b></code> komutu,
+                                kullanıcının sistem hakkında bilgi edinmesine yardımcı olmak için kullanılır. Özellikle,
+                                komutun temel işlevi, kullanıcının sistem çekirdeği ve makine donanımı hakkında bilgi
+                                edinmesini sağlamaktır. Komutun çıktısı, sistem adı, ağ çalışması ve çekirdek sürümü
+                                dahil olmak üzere bir dizi farklı bilgiyi içerebilir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">uname</span></span><span class="token operator"></span><span class="token string"> -a</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/unamekomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/unamekomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             History Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">history</span></b></code>
+                                komutu, kullanıcının önceden yaptığı işlemlerden oluşan bir komut geçmişini
+                                görüntülemeye yarayan bir Linux komutudur. Bu komut, kullanıcının geçmişte kullandığı
+                                tüm komutları ve bunların numaralarını, komutun kullanım tarihini ve saatini,
+                                kullanıcının kimliğini, kullanılan terminali ve komutun kendisini listeler.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">history</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/historykomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/historykomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Man Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">man</span></b></code> komutu,
+                                "manual"ın kısaltması olan bir komuttur ve kullanıcıların Linux veya Unix tabanlı
+                                sistemlerdeki komutların kılavuzlarını görmelerine olanak tanır. man komutu,
+                                kullanıcının belirli bir komut, işlev veya dosya hakkında daha fazla bilgi edinmek için
+                                kullanabileceği ayrıntılı bir kullanım kılavuzu veya belgelendirme sunar.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">man</span></span><span class="token operator"></span><span class="token string"> ls</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/mankomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/mankomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Hostname Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">hostname</span></b></code> komutu, işletim sistemi üzerindeki bilgisayarın adını veya ismini görüntülemek veya ayarlamak için kullanılır. 
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">hostname</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/hostnamekomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/hostnamekomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Adduser Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">adduser</span></b></code> komutu, Linux işletim sisteminde yeni bir kullanıcı hesabı oluşturmak için kullanılan bir komuttur. Bu komut, kullanıcı hesabı oluşturmak için gerekli tüm adımları yürütmektedir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo adduser</span></span><span class="token operator"></span><span class="token string"> "user name"</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/adduser.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/adduser.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Deluser Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">deluser</span></b></code> komutu, Linux işletim sisteminde bir kullanıcı hesabını silmek için kullanılır.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo deluser</span></span><span class="token operator"></span><span class="token string"> "username"</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/deluserkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/deluserkomutu.PNG" />
                         </p>
                         <hr />
-                        
+
                         <h3 id="ip-giris">
                             Netstat Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">netstat</span></b></code> komutu, ağ bağlantılarını ve ağ bağlantısı istatistiklerini gösteren bir ağ aracıdır. Bu komut, belirli bir bilgisayarın ağ bağlantılarına bakabilir veya ağ bağlantıları hakkında bilgi sağlayan tüm bağlantıları listeleyebilir. 
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">netstat</span></span><span class="token operator"></span><span class="token string"></span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/netstatkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/netstatkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Zip Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">Zip</span></b></code> komutu, bir veya daha fazla dosyayı sıkıştırmak ve bir arşiv dosyası oluşturmak için kullanılan bir Linux komutudur. Bu komut, dosyaları sıkıştırmak ve aynı zamanda arşiv dosyalarından dosyaları geri çıkarmak için kullanılır.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">zip</span></span><span class="token operator"></span><span class="token string"> files.zip game_lists.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/zipkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/zipkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Unzip Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">unzip</span></b></code> komutu, bir .zip dosyasının içeriğini çıkarmak için kullanılan bir komuttur.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">unzip</span></span><span class="token operator"></span><span class="token string"> game_lists.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/unzipkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/unzipkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Seq Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">seq</span></b></code> komutu, bir başlangıç değeri, bitiş değeri ve artış değeri belirterek ardışık bir dizi numara oluşturmak için kullanılır. 
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">seq</span></span><span class="token operator"></span><span class="token string"> 1 10</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
-                        <p >
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/seqkomutu.PNG" />
+                        <p>
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/seqkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Sort Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">sort</span></b></code> komutu, bir dosyanın veya girdinin satırlarını alfabetik veya sayısal olarak sıralamak için kullanılan bir Unix/Linux komutudur. Varsayılan olarak, sort komutu, girdinin satırlarını alfabetik olarak sıralar.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo sort</span></span><span class="token operator"></span><span class="token string"> names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/sortkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/sortkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
                             Nl Komutu<a class="headerlink"></a>
                         </h3>
+                        <p>
+                            <b><code class="language-bash"><span style="color: #7ADC62;">nl</span></b></code> komutu, bir dosyanın satırlarını numaralandırır ve bu numaraları dosyanın soluna ekler. Bu sayede, dosyadaki her satıra kolayca erişilebilir ve belirli bir satırı diğerleriyle karşılaştırmak veya hızlıca bir satırı bulmak daha kolay hale gelir.
+                        </p>
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo nl</span></span><span class="token operator"></span><span class="token string"> names.txt</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/nlkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/nlkomutu.PNG" />
                         </p>
                         <hr />
                         <h3 id="ip-giris">
@@ -1285,16 +1761,17 @@ Describe the issue of this article in detail.
                         <pre class=" language-bash" id="__cod_1"><button class="md-clipboard md-icon" style="color: #ffffff; ;" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class=" language-bash"><span class="token assign-left variable"><span class="token operator"></span><span class="token environment constant"style="margin-left: -20px;">sudo service</span></span><span class="token operator"></span><span class="token string"> NetworkManager restart</span><span class="token builtin class-name"></span><span class="token environment constant"></span>
                         </code></pre>
                         <p>
-                            
-                            <img style="border-radius: 0.5em;" alt="center width:900px" src="../Kali-Linux/images/ServiceNetworkkomutu.PNG" />
+
+                            <img style="border-radius: 0.5em;" alt="center width:900px"
+                                src="../Kali-Linux/images/ServiceNetworkkomutu.PNG" />
                         </p>
                         <hr />
-                       
+
                         <div class="arithmatex">\[
                             End-Of-Basic-Linux-Commands
                             \]</div>
                         <hr>
-                            
+
                         <ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
                             <span class="contributors-text">Contributors:</span>
                             <ul class="contributors" data-bi-name="contributors">
