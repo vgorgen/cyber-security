@@ -1,5 +1,5 @@
 [data-md-color-accent=red] {
-    --md-accent-fg-color: hwb(0 59% 41%);
+    --md-accent-fg-color: hwb(0 4% 8%);
     --md-accent-fg-color--transparent: rgba(255,25,71,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
@@ -13,7 +13,7 @@
 }
 
 [data-md-color-accent=purple] {
-    --md-accent-fg-color: #429e0d;
+    --md-accent-fg-color: #57d30f;
     --md-accent-fg-color--transparent: rgba(223,65,251,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
@@ -143,25 +143,25 @@
 }
 
 [data-md-color-primary=indigo] {
-    --md-primary-fg-color: #035d46;/*resmin üst taraftaki rengini belirliyor */
-    --md-primary-fg-color--light: #035d46;
-    --md-primary-fg-color--dark: #035d46;/*3 çizgiye tıklandığında github bölüm rengi*/
+    --md-primary-fg-color: #d80303;/*resmin üst taraftaki rengini belirliyor */
+    --md-primary-fg-color--light: #d80303;
+    --md-primary-fg-color--dark: #d80303;/*3 çizgiye tıklandığında github bölüm rengi*/
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
 
 [data-md-color-primary=blue] {
     --md-primary-fg-color: #d30c0c;
-    --md-primary-fg-color--light: #035d46;
-    --md-primary-fg-color--dark: #035d46;
+    --md-primary-fg-color--light: #07455d;
+    --md-primary-fg-color--dark: #07455d;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
 
 [data-md-color-primary=light-blue] {
-    --md-primary-fg-color: #035d46;
-    --md-primary-fg-color--light: #035d46;
-    --md-primary-fg-color--dark: #035d46;
+    --md-primary-fg-color: #07455d;
+    --md-primary-fg-color--light: #07455d;
+    --md-primary-fg-color--dark: #07455d;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
@@ -183,7 +183,7 @@
 }
 
 [data-md-color-primary=green] {
-    --md-primary-fg-color: #035d46;/*navigatorun alt kısımdaki bölgenin rengini değiştiriyor*/
+    --md-primary-fg-color: #089c6b;/*navigatorun alt kısımdaki bölgenin rengini değiştiriyor*/
     --md-primary-fg-color--light: #035d46;
     --md-primary-fg-color--dark: #035d46;
     --md-primary-bg-color: #ffffff;/*butonların hem çerçevelerini ve ilk butonn arka plan rengini değiştirir*/
@@ -247,17 +247,17 @@
 }
 
 [data-md-color-primary=grey] {
-    --md-primary-fg-color: #f50c0c;
-    --md-primary-fg-color--light: #e70c0c;
-    --md-primary-fg-color--dark: #da0909;
+    --md-primary-fg-color: #058296;
+    --md-primary-fg-color--light: #058296;
+    --md-primary-fg-color--dark: #058296;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
 
 [data-md-color-primary=blue-grey] {
-    --md-primary-fg-color: #e00707;
-    --md-primary-fg-color--light: #e00e0e;
-    --md-primary-fg-color--dark: #d60606;
+    --md-primary-fg-color: #12546e;
+    --md-primary-fg-color--light: #12546e;
+    --md-primary-fg-color--dark: #12546e;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
@@ -370,7 +370,7 @@
         --md-footer-bg-color--dark: hsla(var(--md-hue),15%,10%,1)
     }
 
-    [data-md-color-scheme=slate][data-md-color-primary=rgb(201, 6, 6)],[data-md-color-scheme=slate][data-md-color-primary=white] {
+    [data-md-color-scheme=slate][data-md-color-primary=rgb(85, 219, 8)],[data-md-color-scheme=slate][data-md-color-primary=white] {
         --md-typeset-a-color: #5d6cc0
     }
 
