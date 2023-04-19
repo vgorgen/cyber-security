@@ -62,7 +62,7 @@
 }
 
 [data-md-color-accent=green] {
-    --md-accent-fg-color: #807f7f;/* episode yazılarının rengi*/
+    --md-accent-fg-color: #0073a5;/* episode yazılarının rengi*/
     --md-accent-fg-color--transparent: rgba(0,199,83,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
@@ -76,7 +76,7 @@
 }
 
 [data-md-color-accent=lime] {
-    --md-accent-fg-color: #152a3d;
+    --md-accent-fg-color: #004586;
     --md-accent-fg-color--transparent: rgba(176,235,0,.1);
     --md-accent-bg-color: rgba(0,0,0,.87);
     --md-accent-bg-color--light: rgba(0,0,0,.54)
@@ -183,9 +183,9 @@
 }
 
 [data-md-color-primary=green] {
-    --md-primary-fg-color: #23496b;
-    --md-primary-fg-color--light: #23496b;
-    --md-primary-fg-color--dark: #23496b;
+    --md-primary-fg-color: #094a64;
+    --md-primary-fg-color--light: #094a64;
+    --md-primary-fg-color--dark: #094a64;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }

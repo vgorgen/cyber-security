@@ -1204,7 +1204,7 @@ html .md-footer-meta.md-typeset a:is(:focus,:hover) {
 }
 
 .md-header {
-    background-color: var(--md-primary-fg-color);
+    background-color: var(--md-primary-fg-color);/*/*navigatör rengi*/
     box-shadow: 0 0 .2rem transparent,0 .2rem .4rem transparent;
     color: var(--md-primary-bg-color);
     left: 0;

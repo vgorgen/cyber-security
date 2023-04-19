@@ -55,21 +55,21 @@
 }
 
 [data-md-color-accent=teal] {
-    --md-accent-fg-color: #00bda4;
+    --md-accent-fg-color: #189c40;
     --md-accent-fg-color--transparent: rgba(0,189,164,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
 }
 
 [data-md-color-accent=green] {
-    --md-accent-fg-color: #00c753;
+    --md-accent-fg-color: #006a8a;/*Episode yazılarının fare imlecine getirdiğimdeki renk değişimi*/
     --md-accent-fg-color--transparent: rgba(0,199,83,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
 }
 
 [data-md-color-accent=light-green] {
-    --md-accent-fg-color: #63de17;
+    --md-accent-fg-color: #189c40;
     --md-accent-fg-color--transparent: rgba(99,222,23,.1);
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7)
@@ -183,9 +183,9 @@
 }
 
 [data-md-color-primary=green] {
-    --md-primary-fg-color: #4cae4f;
-    --md-primary-fg-color--light: #68bb6c;
-    --md-primary-fg-color--dark: #398e3d;
+    --md-primary-fg-color: #094a64;
+    --md-primary-fg-color--light: #094a64;
+    --md-primary-fg-color--dark: #094a64;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7)
 }
